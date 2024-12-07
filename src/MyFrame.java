@@ -8,7 +8,7 @@ import java.util.Arrays;
 import java.util.List;
 public class MyFrame extends JFrame {
     MyFrame(){
-        this.setTitle("Cinema");
+        this.setTitle("Chillies");
         this.setDefaultCloseOperation(EXIT_ON_CLOSE);
         this.setLayout(new BorderLayout());
 
