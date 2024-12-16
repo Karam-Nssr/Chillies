@@ -14,14 +14,6 @@ import java.util.List;
 
 public class LoginPanel extends JPanel {
     private final MyFrame parentFrame;
-    private JButton loginButton;
-    private JButton resetButton;
-    private JTextField userIDField;
-    private JPasswordField userPasswordField;
-    private JLabel userIDLabel;
-    private JLabel userPasswordLabel;
-    private JLabel messageLabel;
-    private HashMap<String, String> logininfo;
     LoginPanel(MyFrame parentFrame){
         this.parentFrame=parentFrame;
         setSize(1000,500);
