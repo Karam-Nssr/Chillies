@@ -22,7 +22,7 @@ public class MyFrame extends JFrame {
         LoginPanel loginPanel=new LoginPanel(this);
         mainPanel.add(loginPanel,"LoginPanel");
         mainPanel.add(RegisterPanel,"RegisterPanel");
-        this.add(mainPanel,"mainPanel");
+        this.add(mainPanel);
         setLocationRelativeTo(null);
         this.setVisible(true);
     }
