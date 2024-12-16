@@ -24,28 +24,7 @@ public class LoginPanel extends JPanel {
     private HashMap<String, String> logininfo;
     LoginPanel(MyFrame parentFrame){
         this.parentFrame=parentFrame;
-       /* loginButton.addActionListener(e -> {
-            String username = userText.getText().trim();
-            String password = new String(passText.getPassword()).trim();
-
-            if (username.isEmpty() || password.isEmpty()) {
-                JOptionPane.showMessageDialog(this, "Please enter both username and password", "Error", JOptionPane.ERROR_MESSAGE);
-                return;
-            }
-
-            boolean success = cinemaManagement.login(username, password);
-            if (success) {
-                parentFrame.switchToPanel("MainMenu");
-
-            } else {
-                JOptionPane.showMessageDialog(this, "Invalid credentials", "Error", JOptionPane.ERROR_MESSAGE);
-            }
-        });*/
-
-        /*registerButton.addActionListener(e -> {
-            parentFrame.switchToPanel("Register");
-        });*/
-        setSize(1000, 500);
+        setSize(1000,500);
         setLayout(new BorderLayout());
         JPanel first=new JPanel();
         first.setSize(300,500);
